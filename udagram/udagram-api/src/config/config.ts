@@ -17,7 +17,7 @@ export const config = {
   url: process.env.URL,
   aws_access_key_id: process.env.AWS_ACCESS_KEY_ID,
   aws_secret_access_key: process.env.AWS_SECRET_ACCESS_KEY,
-  session_token: process.env.SESSION_TOKEN,
+  session_token: process.env.AWS_SESSION_TOKEN,
   jwt: {
     secret: process.env.JWT_SECRET,
   },
